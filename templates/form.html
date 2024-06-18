@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>
+<body>
+    <h1>Profile</h1>
+    {% for pro in profile %}
+    <h2>{{ pro.name }}</h2>
+    <h2>{{ pro.branch }}</h2>
+    <h2>{{ pro.rollno }}</h2>
+
+   {% endfor %}
+</body>
+</html>
